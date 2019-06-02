@@ -2,7 +2,10 @@
     "name": "zeit-sudo-demo-app",
     "version": 2,
     "env": {
-        "TEAM_NAME": "ZEIT sudo"
+        "TEAM_NAME": "ZEIT sudo",
+        "TWILIO_ACCOUNT_SID": "@twilio-account-sid",
+        "TWILIO_AUTH_TOKEN": "@twilio-auth-token",
+        "TWILIO_SMS_NUMBER": "@twilio-sms-number"
     },
     "builds": [
         { "src": "next.config.js", "use": "@now/next" },
