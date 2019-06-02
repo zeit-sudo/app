@@ -5,6 +5,7 @@
         "TEAM_NAME": "ZEIT sudo"
     },
     "builds": [
-        { "src": "next.config.js", "use": "@now/next" }
+        { "src": "next.config.js", "use": "@now/next" },
+        { "src": "api/**/*.js", "use": "@now/node" }
     ]
 }
